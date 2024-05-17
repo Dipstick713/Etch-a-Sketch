@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="body">
+        <div class="header">
+            <div class="clear">
+                <button>Clear grid</button>
+            </div>
+            <div id="boxes">
+                <button>Resize</button>
+            </div>
+        </div>
+        <div id="grid">
+          <div id="row1">
+            <div class="column" onmouseover="color(this)"></div>
+            <div class="column" onmouseover="color(this)"></div>
+          </div>
+          <div id="row2">
+            <div class="column" onmouseover="color(this)"></div>
+            <div class="column" onmouseover="color(this)"></div>
+          </div>
+        </div>
+    </div>
+    <script src="javascript.js"></script>
+  </body>
+</html>
